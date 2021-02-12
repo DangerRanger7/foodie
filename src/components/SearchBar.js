@@ -17,7 +17,9 @@ class SearchBar extends React.Component {
       <div className="center">
         <form onSubmit={this.onFormSubmit} className="">
           <div className="">
-            <label> Search For A Recipe</label>
+            <label>
+              Foodie <br /> <span>Search your favorite recipe today</span>
+            </label>
             <br />
             <input
               type="text"
