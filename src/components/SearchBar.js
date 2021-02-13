@@ -14,12 +14,15 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <div className="center">
+      <div className="center searchbar">
         <form onSubmit={this.onFormSubmit} className="">
           <div className="">
-            <label>
-              Foodie <br /> <span>Search your favorite recipe today</span>
-            </label>
+            <label className="primaryColor">Foodie</label>
+            <p>
+              <span className="slogan white">
+                Search your favorite recipe today
+              </span>
+            </p>
             <br />
             <input
               type="text"

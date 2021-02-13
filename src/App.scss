@@ -1,0 +1,82 @@
+$primary-color: red;
+$white: white;
+$font: "Roboto", sans-serif;
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 20px 50px;
+  /*grid-auto-rows: 10px;*/
+  padding-top: 4%;
+}
+
+.recipe-list {
+  /*padding-left: 10%;*/
+  padding: 15px;
+  margin-top: 5%;
+}
+
+label {
+  font-size: 70px;
+}
+
+.primaryColor {
+  color: $primary-color;
+}
+
+input {
+  width: 45%;
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 15px;
+  box-sizing: inherit;
+  font-size: 20px;
+  border: 2px solid #141414;
+}
+
+div .searchbar {
+  margin-top: 3%;
+}
+
+.center {
+  text-align: center;
+}
+
+html,
+input {
+  font-family: $font;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("https://images.unsplash.com/photo-1509358271058-acd22cc93898?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvb2tpbmd8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+}
+.white {
+  color: $white;
+}
+.red {
+  color: $primary-color;
+}
+
+.slogan {
+  font-size: 20px;
+}
+.recipe-item {
+  border: 2px solid $primary-color;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 15px;
+}
+
+.recipeLink {
+  margin-top: 5%;
+}
